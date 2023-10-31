@@ -1,0 +1,31 @@
+WPF
+
+Windows presentation foundation
+
+--> Händelsestyrt
+---> när något hänt.... gör något klokt i koden
+--> event
+--> när ett event sker... kör en event handler
+
+C# är objektorienterat.
+Vi har klasser och objekt. Klass är modellen eller mallen/ritningen
+objekt är den instans eller "sak" som skapas från mallen
+
+Våra klasser och objekt kan ha egenskaper och metoder
+Egenskap = property (visas med en skiftnyckel)
+Alla egenskaper har en specifik datatyp.
+Exempel string
+
+Alla metoder har parenteser
+Inom parenteserna kan vi skicka in instruktioner = parametrar
+
+Alla statements avslutas med ett semikolon ;
+
+Breakpoints.
+Det är ett sätt för oss att följa vilken väg koden tar i vårt program. 
+Via vår breakpoint kan vi stega oss genom koden med F10 och F11. Dessa har lite
+olika egenskaper.
+
+Hur sätter jag en break point?
+Klicka F9 eller i den grå ramen till vänster om koden
+

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL1", "FL1\FL1.csproj", "{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E99AF3D9-C76E-419C-8E9F-62EDFD62F017}"
+	ProjectSection(SolutionItems) = preProject
+		anteckningar.txt = anteckningar.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift2", "Uppgift2\Uppgift2.csproj", "{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {766F0786-0624-4832-8F45-C08F9F40D4A6}
+	EndGlobalSection
+EndGlobal
