@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{E99AF3D9-C
 		anteckningar.txt = anteckningar.txt
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL2", "..\FLHT23\FL2\FL2.csproj", "{A4826142-FD28-40DB-976F-BD9BCE970C2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL2", "FL2\FL2.csproj", "{6EF40961-FB1D-4361-928F-F10D94D96BE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
