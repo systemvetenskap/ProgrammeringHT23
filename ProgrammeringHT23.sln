@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL1", "FL1\FL1.csproj", "{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E99AF3D9-C76E-419C-8E9F-62EDFD62F017}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{E99AF3D9-C76E-419C-8E9F-62EDFD62F017}"
 	ProjectSection(SolutionItems) = preProject
 		anteckningar.txt = anteckningar.txt
 	EndProjectSection
