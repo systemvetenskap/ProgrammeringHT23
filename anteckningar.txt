@@ -29,3 +29,32 @@ olika egenskaper.
 Hur sätter jag en break point?
 Klicka F9 eller i den grå ramen till vänster om koden
 
+
+VARIABLER
+Variabler är en mycket grundläggande komponent i programmeringen. Ser det själv som en liten
+ask där jag kan spara saker jag ska komma ihåg.
+
+Variabler skapas på formen
+datatyp namn + eventuellt startvärde
+
+Till exempel
+int number = 23;
+string name = "Erik";
+double length = 173.2;
+
+Läs gärna mer här
+https://www.w3schools.com/cs/cs_variables.php
+
+Tätt knutet till variabler är datatyper. Det finns ett antal inbyggda datatyper i C#
+https://www.w3schools.com/cs/cs_data_types.php
+
+*** Konvertering ***
+När du skapar en variabel sätter du datatypen. Den går inte att ändra. Det som däremot går är att ändra 
+hur du använder värdet från din variabel. Det kallas för konvertering. Alltså att byta från en datatyp till en
+annan. 
+
+En variant på att konvertera är att Casta. Då låter man värdet byta skepnad för en stund. Den går från en
+större datatyp till en lägre. Till exempel att en double (med decimaler) ändras till en integer (heltal).
+https://www.w3schools.com/cs/cs_type_casting.php
+
+
