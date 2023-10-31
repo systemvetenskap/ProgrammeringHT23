@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{E99AF3D9-C
 		anteckningar.txt = anteckningar.txt
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uppgift2", "Uppgift2\Uppgift2.csproj", "{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL2", "..\FLHT23\FL2\FL2.csproj", "{A4826142-FD28-40DB-976F-BD9BCE970C2D}"
 EndProject
 Global
@@ -24,10 +22,6 @@ Global
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA23DEA-4949-4C0C-BB26-77094CEAB78C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5AD16AB-F569-481F-B0D9-F2974A85A0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4826142-FD28-40DB-976F-BD9BCE970C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
