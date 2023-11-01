@@ -38,10 +38,13 @@ namespace FL2
             // vi börjar med heltal = integer
             // -2,147,483,648 to 2,147,483,647
             // -2147483648
-            int dateOfBirth, age, realAge; //
+            int dateOfBirth, age, realAge, currentYear; //
             // vi måste parsa = konvertera värdet från sträng till int
             dateOfBirth  = int.Parse(TxtName.Text);
-            age = 2023 - dateOfBirth;
+
+            // vill istället hämta nuvarande år
+            currentYear = DateTime.Now.Year;
+            age = currentYear - dateOfBirth;
 
             MessageBox.Show($"Du är {age} år gammal");
 
