@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text", "Text", "{E99AF3D9-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL2", "FL2\FL2.csproj", "{6EF40961-FB1D-4361-928F-F10D94D96BE8}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreNumbersEqual", "..\AreNumbersEqual\AreNumbersEqual\AreNumbersEqual.csproj", "{52BD0FFA-8AD7-4B76-B233-C7711F2276C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertMinutesIntoSeconds", "ConvertMinutesIntoSeconds\ConvertMinutesIntoSeconds.csproj", "{89F1B9B2-E313-4071-A445-E18222BA52CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF40961-FB1D-4361-928F-F10D94D96BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BD0FFA-8AD7-4B76-B233-C7711F2276C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BD0FFA-8AD7-4B76-B233-C7711F2276C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BD0FFA-8AD7-4B76-B233-C7711F2276C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BD0FFA-8AD7-4B76-B233-C7711F2276C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
