@@ -49,6 +49,7 @@ namespace FL2
             MessageBox.Show($"Du är {age} år gammal");
 
             // aritmetiska operatorer
+            // används när vi vill räkna matematik
             // + - * /
             realAge = age + 5;
             age += 5;
