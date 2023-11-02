@@ -16,6 +16,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreNumbersEqual", "..\AreNu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertMinutesIntoSeconds", "ConvertMinutesIntoSeconds\ConvertMinutesIntoSeconds.csproj", "{89F1B9B2-E313-4071-A445-E18222BA52CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfitableGamble", "ProfitableGamble\ProfitableGamble.csproj", "{9A6E9B0B-4EC1-4BA2-B842-7C8D89B2EC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YatzeeGame", "YatzeeGame\YatzeeGame.csproj", "{A9EF3FF9-985D-48FA-9193-8A75ABB32F3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +42,14 @@ Global
 		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89F1B9B2-E313-4071-A445-E18222BA52CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6E9B0B-4EC1-4BA2-B842-7C8D89B2EC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6E9B0B-4EC1-4BA2-B842-7C8D89B2EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6E9B0B-4EC1-4BA2-B842-7C8D89B2EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6E9B0B-4EC1-4BA2-B842-7C8D89B2EC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EF3FF9-985D-48FA-9193-8A75ABB32F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EF3FF9-985D-48FA-9193-8A75ABB32F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EF3FF9-985D-48FA-9193-8A75ABB32F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EF3FF9-985D-48FA-9193-8A75ABB32F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
