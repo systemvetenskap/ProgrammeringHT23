@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YatzeeGame"
         mc:Ignorable="d"
-        Title="Yatzy" Height="500" Width="800" FontSize="25">
+        Title="Yatzy" Height="575" Width="800" FontSize="25">
     <Grid>
         <Grid Margin="0,25,20,45">
             <Grid.ColumnDefinitions>
@@ -58,5 +58,6 @@
             <Label x:Name="diceFour" Content="X" FontSize="72" Margin="0,0,5,0"/>
             <Label x:Name="diceFive" Content="X" FontSize="72"  Margin="0,0,5,0"/>
         </WrapPanel>
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="74,477,0,0" VerticalAlignment="Top" Click="button1_Click"/>
     </Grid>
 </Window>

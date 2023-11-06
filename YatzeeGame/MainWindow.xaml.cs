@@ -34,7 +34,7 @@ namespace YatzeeGame
         private void button_Click(object sender, RoutedEventArgs e)
         {
             int dieOne, dieTwo, dieThree, dieFour, dieFive, total;
-            int ones, twoos, threes, fours, sixes = 0;
+            int ones, twoos, threes, fours, fives=0, sixes = 0;
             // Hur kan mina tärningar få värden?
 
             // vi introducerar slumpvärden
@@ -79,6 +79,8 @@ namespace YatzeeGame
 
             }
 
+            
+
 
             bool hasBonus = total >= _thresholdForBonus;
 
@@ -89,6 +91,35 @@ namespace YatzeeGame
             }
 
             txtTotal.Text = total.ToString();
+            // DRY
+            // don't repeat yourself
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            int[] dice = new int[5];
+            bool[] savedDice = { false, false, false, false, false };
+            int total = 0;
+
+            for (int i = 0; i < dice.Length; i++)
+            {
+                // undersök om tärningen är sparad eller inte
+                if (!savedDice[i])
+                {
+                    dice[i] = _random.Next(1,7);
+                }
+            }
+
+            // Beräkna totalsumman av tärningarna
+            // Vi vill räkna totalsumman, men bara för vissa tärningar
+            foreach (int die in dice)
+            {
+                // räkna enbart femmor
+                if (die==5)
+                {
+                    total += die;
+                }
+            }
 
         }
     }
