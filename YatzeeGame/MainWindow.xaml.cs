@@ -23,6 +23,10 @@ namespace YatzeeGame
        // Nyckelordet är då new
         private readonly Random _random = new();
         // gränsvärdet är 63 poäng
+        /// <summary>
+        /// Spelmotor
+        /// </summary>
+        GameEngine _gameEngine = new GameEngine();
 
         const int _thresholdForBonus = 25;
         // Vi har byggt vår slumpgenerator. Den är ett objekt eftersom vi har använt new
@@ -121,6 +125,36 @@ namespace YatzeeGame
                 }
             }
 
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            // Koppla ihop vårt spel med spelmotorn
+
+            // spelmotorn är en egen klass
+            // som heter GameEngine
+            // För att komma åt en klass måste vi skapa ett objekt
+            // Objekt skapr vi med att skriva new
+            // Vi skapar en variabel
+            // Observera!!!
+            // new betyder ny
+            int[] dices =  _gameEngine.RollDice();
+            DisplayDice(dices);
+            bool[] savedDices = { true, false, true, false, false };
+            _gameEngine.SaveDice(savedDices);
+            dices = _gameEngine.RollDice();
+            DisplayDice(dices);
+            
+
+        }
+
+        private void DisplayDice(int[] dice)
+        {
+           diceOne.Content = dice[0];
+           diceTwo.Content = dice[1];
+           diceThree.Content = dice[2];
+           diceFour.Content = dice[3];
+           diceFive.Content = dice[4];
         }
     }
 }

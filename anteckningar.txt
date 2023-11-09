@@ -57,4 +57,24 @@ En variant på att konvertera är att Casta. Då låter man värdet byta skepnad för 
 större datatyp till en lägre. Till exempel att en double (med decimaler) ändras till en integer (heltal).
 https://www.w3schools.com/cs/cs_type_casting.php
 
+Objektorientering
+
+C# är objektiorienterat. Det betyder att vi kan skapa
+mallar för vår kod.
+
+En mall = ritning  = Class
+
+objekt = mitt hus = instans
+
+*** Metoder
+Metoder kan överlagras!
+
+Det betyder att en och samma metod kan fungera lite olika
+beroende på hur man anropar den.
+
+Kan man göra mer roliga saker med en metod?
+Japp!
+Du kan ha defaultvärden i dina parametrar. = startvärde
+
+
 

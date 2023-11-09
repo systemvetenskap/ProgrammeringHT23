@@ -59,5 +59,6 @@
             <Label x:Name="diceFive" Content="X" FontSize="72"  Margin="0,0,5,0"/>
         </WrapPanel>
         <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="74,477,0,0" VerticalAlignment="Top" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="340,530,0,0" VerticalAlignment="Top" Click="button2_Click"/>
     </Grid>
 </Window>

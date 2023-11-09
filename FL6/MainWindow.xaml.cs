@@ -47,21 +47,44 @@ namespace FL6
 
             // en metod ska ha ett uppdrag
             string message = SayHello("Hejhopp");
-
-            message = Talk("Land i sikte");
+            SayHello();
+            message = SayHello(numberOfEchos: 10);
+            message = Talk("Land i sikte", 150);
+            
         }
 
         // Alla metoder måste inte returnera värden
         // Då säger vi att den returnerar void
         // tomrum
 
-
+        /// <summary>
+        /// Tar emot ett valfritt meddelande
+        /// </summary>
+        /// <param name="message">Det meddelande som skickas ut i piratformat</param>
+        /// <returns></returns>
         private string SayHello(string message)
         {
             return message + " ahoy!!";
         }
+        /// <summary>
+        /// Standard piratmeddelande
+        /// </summary>
+        /// <returns></returns>
+        private string SayHello()
+        {
+            return  "Hello ahoy!!";
+        }
+        private string SayHello(int numberOfEchos)
+        {
+            string message = "";
+            for (int i = 0; i < numberOfEchos; i++)
+            {
+                message += SayHello();
+            }
+            return message;
+        }
 
-        private string Talk(string message)
+        private string Talk(string message, int echoes=3)
         {
             string parrotMessage = "Kraa ";
             string[] parts = message.Split(' ');
@@ -69,7 +92,7 @@ namespace FL6
             // en array -- > tänk loop
             // Vilken loop?
             // for-loop
-            for (int i = 0; i<3; i++)
+            for (int i = 0; i<echoes; i++)
             {
                 parrotMessage += " " + parts[parts.Length-1];
             }

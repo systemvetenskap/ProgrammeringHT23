@@ -25,6 +25,11 @@ namespace ShuffleTheName
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Byter plats på för- och efternamn
+        /// </summary>
+        /// <param name="name">Hela namnet</param>
+        /// <returns>Förnamn och efternamn</returns>
         private string NameShuffle(string name)
         {
             string firstname = string.Empty, lastname = "";
@@ -59,11 +64,9 @@ namespace ShuffleTheName
         private void button_Click(object sender, RoutedEventArgs e)
         {
             string name = txtName.Text;
-            string fullname = NameShuffle("Erik Öberg");
-            fullname = NameShuffle("Donald Trump");
-            fullname = NameShuffle("Rosie O'Donnell");
-            fullname = NameShuffle(name);
 
+            string fullname = NameShuffle(name);
+           
         }
     }
 }
