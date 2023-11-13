@@ -72,7 +72,7 @@ namespace FL7
             switch (Level)
             {
                 case 1:
-                    Rank = "Deckand";
+                    Rank = "Deckhand";
                     break;
                 case 2:
                     Rank = "Boatswain";
