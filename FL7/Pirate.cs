@@ -21,7 +21,8 @@ namespace FL7
         public string Name { get; set; }
         // I exemplet ovan kan vi både ge vår pirat ett namn = Set
         // och vi kan fråga vad vår pirat heter = Get
-        public string Rank { get; private set; }
+        // public string Rank { get; private set; }
+        public string Rank => GetRank();
         public int Level { get; set; }
 
         // Låt oss introducera begreppet konstruktor
@@ -32,8 +33,8 @@ namespace FL7
         public Pirate()
         {
             // Lägg till vår konstruktor om den behövs
-            CalculateRank();
-            SetRankFromLevel();
+            //CalculateRank();
+            //SetRankFromLevel();
         }
 
         public Pirate(string name, int employmentYear)
@@ -43,54 +44,79 @@ namespace FL7
             // via vår konstruktor. Då kan vi ha
             // en property utan setter, men som ändå fungerar.
             EmploymentYear = employmentYear;
-            CalculateRank();
+            //CalculateRank();
         }
 
         // JAg vet.. Vi bygger en metod som räknar ut min Rank
-        private void CalculateRank()
-        {
-            int yearsOfEmployment = _currentYear - EmploymentYear;
-            if(yearsOfEmployment ==7)
-            {
-                Rank = "Sailing master";
+        //private void CalculateRank()
+        //{
+        //    int yearsOfEmployment = _currentYear - EmploymentYear;
+        //    if(yearsOfEmployment ==7)
+        //    {
+        //        Rank = "Sailing master";
 
-            }
-            else if (yearsOfEmployment > 7)
-            {
-                Rank = "Captain";
-            }
-            else if (yearsOfEmployment > 10)
-            {
-                Rank = "No ranking";
-            }
-        }
-
-        public void SetRankFromLevel()
+        //    }
+        //    else if (yearsOfEmployment > 7)
+        //    {
+        //        Rank = "Captain";
+        //    }
+        //    else if (yearsOfEmployment > 10)
+        //    {
+        //        Rank = "No ranking";
+        //    }
+        //}
+        private string GetRank()
         {
-            // är han galen?
-            // detta problem är som gjort för en case
+            string rank = string.Empty;
             switch (Level)
             {
                 case 1:
-                    Rank = "Deckhand";
+                    rank = "Deckhand";
                     break;
                 case 2:
-                    Rank = "Boatswain";
+                    rank = "Boatswain";
                     break;
                 case 3:
-                    Rank = "Powder monkey";
+                    rank = "Powder monkey";
                     break;
                 case 4:
-                    Rank = "Sailing master";
+                    rank = "Sailing master";
                     break;
                 case 5:
-                    Rank = "Captain";
+                    rank = "Captain";
                     break;
                 default:
-                    Rank = "No rank";
+                    rank = "No rank";
                     break;
             }
+            return rank;
         }
+        //public void SetRankFromLevel()
+        //{
+        //    // är han galen? Ja Erik Ö är galen
+        //    // detta problem är som gjort för en case
+        //    switch (Level)
+        //    {
+        //        case 1:
+        //            Rank = "Deckhand";
+        //            break;
+        //        case 2:
+        //            Rank = "Boatswain";
+        //            break;
+        //        case 3:
+        //            Rank = "Powder monkey";
+        //            break;
+        //        case 4:
+        //            Rank = "Sailing master";
+        //            break;
+        //        case 5:
+        //            Rank = "Captain";
+        //            break;
+        //        default:
+        //            Rank = "No rank";
+        //            break;
+        //    }
+        //}
 
     }
 }

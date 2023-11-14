@@ -126,15 +126,19 @@ namespace FL7
 
         public Tortuga()
         {
-            foreach (Pirate pirate in _pirates)
-            {
-                pirate.SetRankFromLevel();
-            }
+            //foreach (Pirate pirate in _pirates)
+            //{
+            //    pirate.SetRankFromLevel();
+            //}
         }
 
 
         public List<Pirate> GetPiratesByLevel(int count, int level)
         {
+            Pirate nyRackare = new Pirate();
+            nyRackare.Name = "Erik";
+            nyRackare.Level = 5;
+            _pirates.Add(nyRackare);
             List<Pirate> selectedPirates = new List<Pirate> ();
             //for (int i = 0; i < count; i++)
             //{
