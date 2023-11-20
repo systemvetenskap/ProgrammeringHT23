@@ -171,7 +171,7 @@ namespace FL7
             return selectedPirates;
         }
 
-        public List<Pirate> GetPirates(int level=4)
+        public List<Pirate> GetPirates(int lowestLevel=1, int higestLevel=4)
         {
             List<Pirate> selectedPirates = new List<Pirate>();
 
@@ -180,7 +180,7 @@ namespace FL7
 
             foreach (Pirate pirate in _pirates)
             {
-                if (pirate.Level >= 1 && pirate.Level <=level)
+                if (pirate.Level >= lowestLevel && pirate.Level <=higestLevel)
                 {
                     selectedPirates.Add(pirate);
                 }
@@ -196,7 +196,7 @@ namespace FL7
         public List<Pirate> GetPirateCaptains()
         {
             List<Pirate> selectedPirates = new List<Pirate>();
-            selectedPirates = GetPirates(5);
+            selectedPirates = GetPirates(4, 5);
             return selectedPirates;
         }
     }
