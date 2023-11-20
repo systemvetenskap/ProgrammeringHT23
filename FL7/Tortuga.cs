@@ -196,7 +196,7 @@ namespace FL7
         public List<Pirate> GetPirateCaptains()
         {
             List<Pirate> selectedPirates = new List<Pirate>();
-            selectedPirates = GetPirates(4, 5);
+            selectedPirates = GetPirates(5, 5);
             return selectedPirates;
         }
     }
