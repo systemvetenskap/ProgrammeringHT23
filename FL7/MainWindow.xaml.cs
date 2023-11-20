@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,7 @@ namespace FL7
     {
         Ship _ship;
         Tortuga _tortuga = new Tortuga();
+        private string _filename = "pirates.json";
 
         // Vi vill skapa flera pirater
         // Därför gör vi en kollektion, eller lista
@@ -29,6 +31,8 @@ namespace FL7
         {
             InitializeComponent();
             _ship = new Ship();
+            lstPirates.ItemsSource = null;
+            lstPirates.ItemsSource = _tortuga.GetPirates();
         }
 
         private void button_Click(object sender, RoutedEventArgs e)
@@ -71,6 +75,25 @@ namespace FL7
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            List<Pirate> pirates =  _tortuga.GetPirateCaptains();
+            lstPirates.ItemsSource = null;
+            lstPirates.ItemsSource = pirates;
+
+            FileHandler.Save(pirates, "pirates.json");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             int[] numbers = new int[23];
             
             string name = txtName.Text;
@@ -100,6 +123,25 @@ namespace FL7
             Person person2 = new Person("Erik", "Öberg");
             MessageBox.Show(person1.Greet());
             MessageBox.Show(person.Greet());
+        }
+
+        private void PiratesDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Pirate pirate = lstPirates.SelectedItem as Pirate;
+            MessageBox.Show($"{pirate.Name} har level {pirate.Level}");
+        }
+
+        private void btnOpen_Click(object sender, RoutedEventArgs e)
+        {
+            List<Pirate> pirates;
+            if (File.Exists(_filename))
+            {
+                pirates = FileHandler.Open<List<Pirate>>(_filename);
+            }
+            else
+            {
+                pirates = _tortuga.GetPirates();
+            }
         }
     }
 }

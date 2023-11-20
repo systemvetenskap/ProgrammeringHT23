@@ -7,10 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="80,75,0,0" VerticalAlignment="Top" Click="button_Click"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="199,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <StackPanel Margin="172,31,420,314">
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Click="button_Click"/>
+            <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="5" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        </StackPanel>
         <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="80,195,0,0" VerticalAlignment="Top" Click="button1_Click"/>
         <Button x:Name="button2" Content="Button" HorizontalAlignment="Left" Margin="281,205,0,0" VerticalAlignment="Top" Click="button2_Click"/>
+        <ListBox x:Name="lstPirates" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="400,34,123,219" MouseDoubleClick="PiratesDoubleClick"/>
+        <Button x:Name="btnOpen" Content="Open" HorizontalAlignment="Left" Margin="80,276,0,0" VerticalAlignment="Top" Click="btnOpen_Click"/>
 
     </Grid>
 </Window>

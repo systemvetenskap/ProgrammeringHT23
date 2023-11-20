@@ -8,6 +8,8 @@ namespace FL7
 {
     class Tortuga
     {
+        // Den här är private
+        // Du kan alltså inte hämta piraterna från gränssnittet
         private List<Pirate> _pirates = new List<Pirate>
         {
             new Pirate {Name="Mae Whiskey-Woo", Level=2},
@@ -166,6 +168,35 @@ namespace FL7
             //    index++;
             //}
 
+            return selectedPirates;
+        }
+
+        public List<Pirate> GetPirates(int level=4)
+        {
+            List<Pirate> selectedPirates = new List<Pirate>();
+
+            // eftersom vi måste leta igenom ALLA pirater
+            // => foreach
+
+            foreach (Pirate pirate in _pirates)
+            {
+                if (pirate.Level >= 1 && pirate.Level <=level)
+                {
+                    selectedPirates.Add(pirate);
+                }
+            }
+
+            return selectedPirates;
+        }
+
+        /// <summary>
+        /// Lista med kaptener
+        /// </summary>
+        /// <returns></returns>
+        public List<Pirate> GetPirateCaptains()
+        {
+            List<Pirate> selectedPirates = new List<Pirate>();
+            selectedPirates = GetPirates(5);
             return selectedPirates;
         }
     }

@@ -38,7 +38,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL9", "FL9\FL9.csproj", "{B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompoundingLettersChallenge", "CompoundingLettersChallenge\CompoundingLettersChallenge.csproj", "{A4FB5C16-96FB-4FFC-8AA7-E6CEB7EA1973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL10", "FL10\FL10.csproj", "{0F98F1FA-9706-403E-9C95-1FE314E3C143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL10", "FL10\FL10.csproj", "{0F98F1FA-9706-403E-9C95-1FE314E3C143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL11", "FL11\FL11.csproj", "{774507F1-3352-4244-B596-86648A64CAD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,6 +112,10 @@ Global
 		{0F98F1FA-9706-403E-9C95-1FE314E3C143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F98F1FA-9706-403E-9C95-1FE314E3C143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F98F1FA-9706-403E-9C95-1FE314E3C143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774507F1-3352-4244-B596-86648A64CAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774507F1-3352-4244-B596-86648A64CAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774507F1-3352-4244-B596-86648A64CAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774507F1-3352-4244-B596-86648A64CAD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

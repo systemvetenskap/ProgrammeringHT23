@@ -37,6 +37,11 @@ namespace FL7
             //SetRankFromLevel();
         }
 
+        public override string ToString()
+        {
+            return Name;
+        }
+
         public Pirate(string name, int employmentYear)
         {
             Name = name;
