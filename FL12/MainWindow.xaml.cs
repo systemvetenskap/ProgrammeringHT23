@@ -43,6 +43,7 @@ namespace FL12
             }
            
             player = team[9];
+            
             SetNumberForPlayer(team);
         }
 
@@ -54,6 +55,42 @@ namespace FL12
                 player.Number = number;
                 number++;
             }
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            // SOC
+            // separation of concerns
+            Level level = Level.Superettan;
+
+            switch (level)
+            {
+                case Level.Superettan:
+                    break;
+                case Level.Allsvenskan:
+                    break;
+            }
+
+            if (level == Level.Korpfotboll)
+            {
+
+            }
+
+            //int level = 1;
+
+            //// 1 = elit
+            //// 2 = division 1
+            //// 3 = korpfotboll
+            //switch (level)
+            //{
+            //    case 1:
+            //        break;
+            //    case 2:
+            //        break;
+            //    case 3:
+            //        break;
+            //}
+
         }
     }
 }

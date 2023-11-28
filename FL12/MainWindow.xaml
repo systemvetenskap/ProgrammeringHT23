@@ -9,6 +9,8 @@
     <Grid>
         <Button x:Name="button" Content="Objektorientering" HorizontalAlignment="Left" Margin="175,156,0,0" VerticalAlignment="Top" Click="button_Click"/>
         <Button x:Name="Laget" Content="Laget" HorizontalAlignment="Left" Margin="181,203,0,0" VerticalAlignment="Top" Click="Laget_Click"/>
+        <Button x:Name="button1" Content="Case
+                " HorizontalAlignment="Left" Margin="377,176,0,0" VerticalAlignment="Top" Click="button1_Click"/>
 
     </Grid>
 </Window>
