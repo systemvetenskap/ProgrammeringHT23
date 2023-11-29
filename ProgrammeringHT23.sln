@@ -42,9 +42,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL10", "FL10\FL10.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL11", "FL11\FL11.csproj", "{774507F1-3352-4244-B596-86648A64CAD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL12", "FL12\FL12.csproj", "{923A3A4D-0807-43CB-BE30-47824FAF41A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL12", "FL12\FL12.csproj", "{923A3A4D-0807-43CB-BE30-47824FAF41A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackToHomeChallenge", "BackToHomeChallenge\BackToHomeChallenge.csproj", "{8786C861-594F-47D7-BEBE-C2A7541C2C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackToHomeChallenge", "BackToHomeChallenge\BackToHomeChallenge.csproj", "{8786C861-594F-47D7-BEBE-C2A7541C2C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YatzyGame", "YatzyGame\YatzyGame.csproj", "{A05B8C96-016C-43A6-9161-EA5369936AD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,6 +130,10 @@ Global
 		{8786C861-594F-47D7-BEBE-C2A7541C2C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8786C861-594F-47D7-BEBE-C2A7541C2C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8786C861-594F-47D7-BEBE-C2A7541C2C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05B8C96-016C-43A6-9161-EA5369936AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05B8C96-016C-43A6-9161-EA5369936AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05B8C96-016C-43A6-9161-EA5369936AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05B8C96-016C-43A6-9161-EA5369936AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
